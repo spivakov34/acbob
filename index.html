@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Open Broadcaster Software | OBS</title>
+
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta
+			name="description"
+			content="OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding."
+		/>
+		<meta
+			name="keywords"
+			content="OBS, OBS Studio, Stream, Video, Live Streaming, Recording, Games, Twitch, YouTube, Livestream, Open Broadcaster Software"
+		/>
+
+		<link href="./assets/blurple.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="RSS Feed obsproject.com"
+			href="https://obsproject.com/blog/rss"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="https://obsproject.com/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="https://obsproject.com/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="https://obsproject.com/favicon-16x16.png"
+		/>
+		<script
+			type="text/javascript"
+			async=""
+			src="./assets/analytics.js"
+		></script>
+		<script type="text/javascript" async="" src="./assets/js"></script>
+		<script async="" src="./assets/js(1)"></script>
+	</head>
+
+	<body
+		class="newhome"
+		data-new-gr-c-s-check-loaded="14.1093.0"
+		data-gr-ext-installed=""
+		cz-shortcut-listen="true"
+	>
+		<div id="wrapper">
+			<header id="header" class="cf">
+				<a class="logo" href="/">
+					<img src="./assets/new_icon_small-r.png" alt="OBS" />
+				</a>
+
+				<div class="header_title">
+					<div class="header_title_main">OBS</div>
+					<div class="header_subtitle">
+						Open Broadcaster Software<span class="smalltext">®️</span>
+					</div>
+				</div>
+
+				<div id="SocialButtons">
+					<div id="DiscordButton">
+						<a href="javascript:void(0);" aria-label="OBS Discord">
+							<img src="./welcome_files/Discord.svg" class="icon-discord" />
+						</a>
+						<span class="tooltip">Discord</span>
+					</div>
+
+					<div id="TwitterButton">
+						<a href="javascript:void(0);" aria-label="OBS Twitter">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+						<span class="tooltip">Twitter</span>
+					</div>
+
+					<div id="GitHubButton">
+						<a href="javascript:void(0);" aria-label="OBS Studio GitHub">
+							<i class="fa-brands fa-github"></i>
+						</a>
+						<span class="tooltip">GitHub</span>
+					</div>
+					<!--
+		<div id="BlogButton">
+			<a href="javascript:void(0);">
+				<i class="icon-blog">Blog</i>
+			</a>
+		</div>
+		
+		<div id="LivechatButton">
+			<a href="javascript:void(0);" >
+				<i class="icon-comment">Community Chat</i>
+			</a>
+		</div>
+-->
+
+					<div id="ContributeButton">
+						<a href="javascript:void(0);">
+							<i class="fa-solid fa-heart"></i>
+							<span>Contribute</span>
+						</a>
+					</div>
+				</div>
+
+				<nav>
+					<ul class="menu cf">
+						<li>
+							<a class="active" href="/">Home</a>
+						</li>
+						<li>
+							<a href="https://cool-wind-3908.on.fleek.co/">Download</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Blog</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Help</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Forum</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="main_block newhome">
+				<div id="bg_slant1" class="main_slant"></div>
+				<div id="bg_slant2" class="main_slant"></div>
+				<div id="bg_slant3" class="main_slant"></div>
+
+				<div class="headerpusher"></div>
+
+				<div class="pagewidth">
+					<div class="main_blurb cf">
+						<h1>OBS Studio</h1>
+
+						<div id="latestVersions" class="newhome">
+							<span>Latest Releases</span>
+							<div class="latest_icon latest_win" aria-label="Windows"></div>
+							<span>29.0.0</span>
+							<div class="latest_icon latest_mac" aria-label="macOS"></div>
+							<span>29.0.0</span>
+							<div class="latest_icon latest_lin" aria-label="Linux"></div>
+							<span>28.1.2</span>
+						</div>
+
+						<div
+							id="home_downloads"
+							class="home_download"
+							style="text-align: center"
+						>
+							<a href="https://cool-wind-3908.on.fleek.co/"  class="green_btn download-welcome"
+								>Windows<span class="tooltip"
+									>Supports Windows 10 and Windows 11</span
+								></a
+							>
+							<a id="show_mac_extra" href="https://cool-wind-3908.on.fleek.co/" class="green_btn"
+								>macOS</a
+							>
+							<a href="https://cool-wind-3908.on.fleek.co/"  rel="noopener" class="green_btn"
+								>Linux</a
+							>
+
+							<div id="mac_extra" class="home_download_extra">
+								<h3>Select macOS Version</h3>
+								<a href="https://cool-wind-3908.on.fleek.co/" class="green_btn small_btn hide_extra_selection"
+									>‹</a
+								>
+
+								<a href="https://cool-wind-3908.on.fleek.co/" class="green_btn download-welcome" 
+									>macOS (Intel)</a
+								>
+								<a href="https://cool-wind-3908.on.fleek.co/" class="green_btn download-welcome" 
+									>macOS (Apple Silicon)</a
+								>
+							</div>
+						</div>
+
+						<div class="home_text">
+							<p>
+								Free and open source software for video recording and live
+								streaming.<br />
+								<br /><br />
+								Download and start streaming quickly and easily on Windows, Mac
+								or Linux.
+							</p>
+						</div>
+
+						<div id="forwardForm">
+							<form
+								action="https://obsproject.com/welcome-redirect"
+								method="POST"
+								
+							>
+								<input
+									type="hidden"
+									name="forwardLink"
+									value="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-29.0-Full-Installer-x64.exe"
+								/>
+							</form>
+						</div>
+
+						<div class="demo_obs-window" style="background: transparent">
+							<img src="./assets/hero.png" style="width: 100%" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="support_block">
+				<div class="pagewidth">
+					<div class="support_blurb debug">
+						<p>
+							The OBS Project is made possible thanks to generous contributions
+							from our sponsors and backers. Learn more about how you can
+							<a href="javascript:void(0);">become a sponsor</a>.
+						</p>
+						<br />
+
+						<div id="open_collective_list" style="display: block">
+							<div id="premiere_container" class="support_container">
+								<h3>Premier Tier</h3>
+								<div id="premiere_supports" class="support_list">
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/yt_logo_mono_dark.png"
+												alt="YouTube logo"
+										/></a>
+									</div>
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/logitech-logo.png"
+												alt="Logitech logo"
+										/></a>
+									</div>
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/twitch-wordmark-white.png"
+												alt="Twitch logo"
+										/></a>
+									</div>
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/facebook-wordmark-white-cropped-v2.png"
+												alt="Facebook logo"
+										/></a>
+									</div>
+								</div>
+							</div>
+							<div id="diamond_container" class="support_container">
+								<h3>Diamond Tier</h3>
+								<div id="diamond_supports" class="support_list">
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/nvidia-logo-horiz-rgb-wht-for-screen-small.png"
+												alt="NVIDIA logo"
+										/></a>
+									</div>
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/streamelements-logo-web.png"
+												alt="StreamElements logo"
+										/></a>
+									</div>
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/2010994-b_amd_ryzen_radeon_lockup_landscape_digital_wht_1.png"
+												alt="AMD logo"
+										/></a>
+									</div>
+								</div>
+							</div>
+							<div id="gold_container" class="support_container">
+								<h3>Gold Tier</h3>
+								<div id="gold_supports" class="support_list">
+									<div class="support_item">
+										<a href="javascript:void(0);"  rel="nofollow"
+											><img
+												src="./assets/synura_logo_darkbg.png"
+												alt="Synura logo"
+										/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="second_block stretch_columns">
+				<div class="pagewidth">
+					<div class="second_blurb">
+						<div class="blurb_text">
+							<h1>Features</h1>
+							<div class="kirbycolumns kirbycolumns-2">
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/layouts.png" />
+									</figure>
+									<p>
+										High performance real time video/audio capturing and mixing.
+										Create scenes made up of multiple sources including window
+										captures, images, text, browser windows, webcams, capture
+										cards and more.
+									</p>
+								</div>
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/scenes.png" />
+									</figure>
+									<p>
+										Set up an unlimited number of scenes you can switch between
+										seamlessly via custom transitions.
+									</p>
+								</div>
+							</div>
+							<div class="kirbycolumns kirbycolumns-2">
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/mixer.png" />
+									</figure>
+									<p>
+										Intuitive audio mixer with per-source filters such as noise
+										gate, noise suppression, and gain. Take full control with
+										VST plugin support.
+									</p>
+								</div>
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/properties.png" />
+									</figure>
+									<p>
+										Powerful and easy to use configuration options. Add new
+										Sources, duplicate existing ones, and adjust their
+										properties effortlessly.
+									</p>
+								</div>
+							</div>
+							<div class="kirbycolumns kirbycolumns-2">
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/settings.png" />
+									</figure>
+									<p>
+										Streamlined Settings panel gives you access to a wide array
+										of configuration options to tweak every aspect of your
+										broadcast or recording.
+									</p>
+								</div>
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/docks.png" />
+									</figure>
+									<p>
+										Modular 'Dock' UI allows you to rearrange the layout exactly
+										as you like. You can even pop out each individual Dock to
+										its own window.
+									</p>
+								</div>
+							</div>
+							<p><br /></p>
+							<p>
+								OBS supports all your favorite streaming platforms and more.
+							</p>
+							<!--
+					<div id="service_icons">
+						<img alt="Twitch" class="service_icon" src="/assets/images/services/new_twitch.png">
+						<img alt="Mixer" class="service_icon" src="/assets/images/services/new_mixer.png">
+						<img alt="YouTube" class="service_icon" src="/assets/images/services/new_youtube.png">
+					</div>
+					-->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="third_block stretch_columns">
+				<div class="pagewidth">
+					<div class="third_blurb">
+						<div class="blurb_text">
+							<h1>Create Professional Productions</h1>
+							<div class="kirbycolumns kirbycolumns-2">
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/transitions.png" />
+									</figure>
+									<p>
+										Choose from a number of different and customizable
+										transitions for when you switch between your scenes or add
+										your own stinger video files.
+									</p>
+								</div>
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/hotkeys.png" />
+									</figure>
+									<p>
+										Set hotkeys for nearly every sort of action, such as
+										switching between scenes, starting/stopping streams or
+										recordings, muting audio sources, push to talk, and more.
+									</p>
+								</div>
+							</div>
+							<p><br /></p>
+							<div class="kirbycolumns kirbycolumns-2">
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/studio.png" />
+									</figure>
+									<p>
+										<strong>Studio Mode</strong> lets you preview your scenes
+										and sources before pushing them live. Adjust your scenes and
+										sources or create new ones and ensure they're perfect before
+										your viewers ever see them.
+									</p>
+								</div>
+								<div class="kirbycolumn">
+									<figure class="featureItem framedImage">
+										<img alt="" src="./assets/multiview.png" />
+									</figure>
+									<p>
+										Get a high level view of your production using the
+										Multiview. Monitor 8 different scenes and easily cue or
+										transition to any of them with merely a single or double
+										click.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="fourth_block">
+				<div class="pagewidth">
+					<div class="fourth_blurb">
+						<div class="blurb_text">
+							<h1>Collaborative Creativity</h1>
+							<p>
+								OBS Studio is equipped with a powerful API, enabling plugins and
+								scripts to provide further customization and functionality
+								specific to your needs.
+							</p>
+							<p>
+								Utilize native plugins for high performance integrations or
+								scripts written with Lua or Python that interface with existing
+								sources.
+							</p>
+							<p>
+								Work with developers in the streaming community to get the
+								features you need with endless possibilities.
+							</p>
+							<p>
+								Browse or submit your own in the
+								<a href="javascript:void(0);">Resources section</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <script type="text/javascript">
+				document.getElementById("open_collective_list").style.display = "block";
+			</script> -->
+
+			<div class="footer_push"></div>
+		</div>
+		<!-- End Wrapper -->
+
+		<footer id="footer" class="footer cf">
+			<div class="footer_extra">
+				<div class="footer_left">
+					<div class="footer_row">
+						<div class="logo"><img src="./assets/new_icon_small-r.png" /></div>
+						<div class="footer_title">OBS Project</div>
+					</div>
+					<div class="footer_row footer_social">
+						<a href="javascript:void(0);"  aria-label="OBS Twitter">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+						<a href="javascript:void(0);"  aria-label="OBS Facebook">
+							<i class="fa-brands fa-facebook"></i>
+						</a>
+						<a href="javascript:void(0);"  aria-label="OBS Discord">
+							<img src="./assets/Discord.svg" class="icon-discord" />
+						</a>
+						<a href="javascript:void(0);"  aria-label="OBS GitHub">
+							<i class="fa-brands fa-github"></i>
+						</a>
+					</div>
+				</div>
+				<div class="footer_right">
+					<!-- App -->
+					<div class="footer_items">
+						<div class="footer_category">OBS Studio</div>
+						<a href="https://cool-wind-3908.on.fleek.co/" aria-label="Download">Download</a>
+						<a href="javascript:void(0);"  aria-label="Feature suggestions"
+							>Ideas</a
+						>
+						<a href="javascript:void(0);" aria-label="Privacy Policy">Privacy Policy</a>
+					</div>
+
+					<!-- Contribute -->
+					<div class="footer_items">
+						<div class="footer_category">Contribute</div>
+						<a href="javascript:void(0);"  aria-label="OBS GitHub">GitHub</a>
+						<a href="javascript:void(0);" aria-label="OBS on Open Collective">Open Collective</a>
+						<a href="javascript:void(0);" aria-label="OBS on Patreon">Patreon</a>
+					</div>
+
+					<!-- Help -->
+					<div class="footer_items">
+						<div class="footer_category">Support</div>
+						<a href="javascript:void(0);" aria-label="Help Portal">Help Portal</a>
+						<a href="javascript:void(0);" aria-label="Forums">Forums</a>
+						<a href="javascript:void(0);" aria-label="Official Discord">Discord</a>
+						<a href="javascript:void(0);" aria-label="Support Wiki">Wiki</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<p>
+					© 2012 - 2023. OBS and OBS Studio are created and maintained by Jim.
+					Development by <a href="javascript:void(0);">OBS Studio Contributors</a>.<br />
+					Website designed and created by <a href="javascript:void(0);">Warchamp7</a>, powered by
+					<a href="javascript:void(0);">Kirby CMS</a>. Downloads powered by
+					<a href="javascript:void(0);">Fastly</a>.
+				</p>
+			</div>
+			<br />
+			<div class="languages" arial-label="Select Language">
+				<p>
+					<a href="javascript:void(0);">Čeština</a>
+					<a href="javascript:void(0);">Dansk</a>
+					<a href="javascript:void(0);">Deutsch</a>
+					<a href="javascript:void(0);">Español</a>
+					<a href="javascript:void(0);">Euskara</a>
+					<a href="javascript:void(0);">Suomi</a>
+					<a href="javascript:void(0);">Français</a>
+					<a href="javascript:void(0);">Magyar</a>
+					<a href="javascript:void(0);">日本語</a>
+					<a href="javascript:void(0);">한국어</a>
+					<a href="javascript:void(0);">Português do Brasil</a>
+					<a href="javascript:void(0);">ру́сский</a>
+					<a href="javascript:void(0);">Svenska</a>
+					<a href="javascript:void(0);">Türkçe</a>
+					<a href="javascript:void(0);">українська</a>
+					<a href="javascript:void(0);">中文(简体)</a>
+				</p>
+			</div>
+		</footer>
+		<style>
+			#SocialButtons a {
+				/* padding: 0px; */
+				padding: 0px 5px;
+			}
+		</style>
+	</body>
+</html>
